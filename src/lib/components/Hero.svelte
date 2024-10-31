@@ -1,5 +1,6 @@
 <script lang="ts">
 	import TypeWriter from './TypeWriter.svelte';
+	import { base } from '$app/paths';
 
 	let text =
 		'Aspiring software developer leveraging  Flutter and SvelteKit  to craft innovative and user-friendly applications. ';
@@ -48,7 +49,11 @@
 	</div>
 	<!-- Image -->
 	<div class=" flex h-full w-full items-center py-5 md:w-1/2 md:pb-20 md:pl-10 md:pt-10">
-		<img class="h-auto w-full rounded-2xl object-cover" src="/images/profile.webp" alt="Profile" />
+		<img
+			class="h-auto w-full rounded-2xl object-cover"
+			src="{base}/images/profile.webp"
+			alt="Profile"
+		/>
 	</div>
 </div>
 
