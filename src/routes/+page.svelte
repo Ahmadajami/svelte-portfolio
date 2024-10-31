@@ -2,6 +2,8 @@
 	import Hero from '$lib/components/Hero.svelte';
 	import TechSection from '$lib/components/Tech-section.svelte';
 	import TypeWriter from '$lib/components/TypeWriter.svelte';
+
+	import { base } from '$app/paths';
 </script>
 
 <Hero />
@@ -12,7 +14,7 @@
 </div>
 <div class="flex h-screen items-center justify-center text-center">
 	<div class=" aspect-2">
-		<img class="" src="/images/meme.jpg" alt="meme" />
+		<img class="" src="{base}/images/meme.jpg" alt="meme" />
 	</div>
 	<TypeWriter text="Comming More ..." />
 </div>
