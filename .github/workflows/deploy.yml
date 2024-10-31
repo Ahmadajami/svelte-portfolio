@@ -17,7 +17,7 @@ jobs:
         run: npm install
       - name: build
         env:
-          BASE_PATH: '/svelte-portfolio'
+          BASE_PATH: 'svelte-portfolio'
         run: |
           npm run build
       - name: Upload Artifacts
