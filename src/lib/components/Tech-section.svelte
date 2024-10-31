@@ -14,7 +14,7 @@
 		},
 		{
 			text: 'Svelte: Your lightweight backend in a box. Build full-stack apps with ease, no server setup required.',
-			icon: `<img class="z-1 mx-0 my-4" src='"${base}"/images/svelte-logo.svg' alt="svelte logo" />`
+			icon: `<img class="z-1 mx-0 my-4" src='${base}/images/svelte-logo.svg' alt="svelte logo" />`
 		},
 		{
 			text: 'PocketBase: Your lightweight backend in a box. Build full-stack apps with ease, no server setup required.',
