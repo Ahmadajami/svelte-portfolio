@@ -48,11 +48,7 @@
 	</div>
 	<!-- Image -->
 	<div class=" flex h-full w-full items-center py-5 md:w-1/2 md:pb-20 md:pl-10 md:pt-10">
-		<img
-			class="h-auto w-full rounded-2xl object-cover"
-			src={'/images/profile.webp'}
-			alt="Profile"
-		/>
+		<img class="h-auto w-full rounded-2xl object-cover" src="/images/profile.webp" alt="Profile" />
 	</div>
 </div>
 
